@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background changer</title>
+    <style>
+        html {
+            font-size: 10px;
+        }
+        
+        body {
+            margin: 0%;
+            padding: 2.0rem 10.0rem;
+        }
+        
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            margin: .0rem auto;
+        }
+        
+        p {
+            font-size: auto;
+            text-align: justify;
+        }
+        
+        .btn {
+            width: 2rem;
+            height: 2rem;
+            display: inline-block;
+            border: .002rem solid blue;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        #lightgreen {
+            background-color: lightgreen;
+        }
+        
+        #aqua {
+            background-color: aqua;
+        }
+        
+        #pink {
+            background-color: pink;
+        }
+        
+        #color-switcher {
+            text-align: right;
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="color-switcher">
+        <span class="btn" id="lightgreen" onclick="changeBG('#90ee90')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="pink" onclick="changeBG('#FFC0CB')"></span>
+
+
+    </div>
+    <h1>Aman Sharma</h1>
+    <img src="look.jpeg" alt="">
+    <p>
+        Helllo, I am Aman Sharma, I am from indore but i am locatile form uttar pradesh. I am pursuing 3rd semeter B.tech in computer science from Malwa Institute of Technology, indore. I belong to a nuclear family, There are 7 members in my family onclick="changeBG-Grand
+        father, father,mother, elder sister, She is persuing nursing bsc,and two younger sister are there. My father's name Mr. Maherdra Sharma. He is a superwiser in a pharma company in mumbai. I don't have any hobbies but some intrest like reading books
+        in books the stories who are written by suryakant tripathi nirala , mahadevi verma , jayshankar prashad, etc. i like to play watch and play cricket i also participate in my college games also. In the free time i like to do the drawing also listening
+        music and gardening also etc. My short term goal is to be a good software devevloper in IT field. I'm very deatiled oriented person. I like to complete my work by focusing on required deatil. I am also self motivated and good at managing time.
+        I always over prepare for any work that is orsigned to me, and i feel uncomfortable unitl i finish my work. That's all about me. Thanks you
+    </p>
+    <script>
+        function changeBG(color) {
+            document.body.style.backgroundColor = color;
+            // let txt = document.getElementsByClassName("text");
+            // if (color == "#000000") {
+            //     for (let elm of txt) {
+            //         elm.style.color = "white"
+            //     }
+            // } else {
+            //         for (let elm of txt) {
+            //             elm.style.color = "black";
+            //         }
+        }
+    </script>
+</body>
+
+</html>
